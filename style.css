@@ -1,0 +1,101 @@
+body {
+    background-color: lightblue;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: line-through;
+}
+
+.contacts, 
+.gallery h2{
+    color: greenyellow;
+}
+
+p {
+    font-style: italic;
+}
+
+p:last-child {
+    color: white;
+}
+
+b {
+    font-size: 18px;
+    color: lightseagreen;
+}
+
+p b:nth-child(2) {
+    color: red;
+}
+
+a {
+    letter-spacing: 3px;
+}
+
+a[href = "tel:+38 (073) 12 34 567"] {
+    background-color: orange;
+}
+
+img {
+    border: 4px inset darkorchid;
+}
+
+.people img {
+    border-radius: 50%;
+}
+
+.men img {
+    transform: scale(.7);
+}
+
+.woman img {
+    opacity: .5;
+}
+
+.men img:nth-of-type(2) {
+    border: 15px dashed orange;
+}
+
+table th, td {
+    border: 1px solid black;
+}
+
+th {
+    color: darkblue;
+    text-align: center;
+}
+
+tbody th {
+    font-size: 25px;
+}
+
+th[rowspan], [colspan],
+td[rowspan], [colspan] {
+    font-style: italic;
+}
+
+input {
+    display: block;
+}
+
+input[type = "text"],
+input[type = "email"],
+input[type = "password"] {
+    border: 2px solid aqua;
+}
+
+.follow-us b {
+    color: purple;
+}
+
+button {
+    background-color: lightgreen;
+}
+
+.follow-us h3 {
+    text-transform: uppercase;
+}
